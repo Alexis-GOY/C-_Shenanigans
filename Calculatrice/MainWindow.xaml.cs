@@ -144,13 +144,13 @@ namespace Calculatrice
         {
             if (Is_operation_pressed)
             {
-                current_input = "0.";
+                current_input = "0,";
                 Is_operation_pressed = false;
             }
-            else if (!current_input.Contains("."))
+            else if (!current_input.Contains(","))
             {
                 Is_new_calculation = false;
-                current_input += ".";
+                current_input += ",";
             }
 
             ResultTextBlock.Text = current_input;

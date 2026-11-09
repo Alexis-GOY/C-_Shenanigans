@@ -98,7 +98,7 @@
 
             <Button Grid.Row="4" Grid.Column="0" Content="⌫" Click="DeleteButtonClick" Style="{StaticResource FunctionButtonStyle}"/>
             <Button Grid.Row="4" Grid.Column="1" Content="0" Click="NumberButtonClick" Style="{StaticResource NumberButtonStyle}"/>
-            <Button Grid.Row="4" Grid.Column="2" Content="." Click="DecimalButtonClick" Style="{StaticResource NumberButtonStyle}"/>
+            <Button Grid.Row="4" Grid.Column="2" Content="," Click="DecimalButtonClick" Style="{StaticResource NumberButtonStyle}"/>
             <Button Grid.Row="4" Grid.Column="3" Content="=" Click="EqualButtonClick" Style="{StaticResource OperationButtonStyle}"/>
         </Grid>
     </Grid>
