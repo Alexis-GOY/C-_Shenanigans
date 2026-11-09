@@ -20,3 +20,5 @@ remainnning space (5/7) for the second row.
 
 The first ROW is composed of a 2x1 grid, 1st ROW the operation, 2nd the result
 The second ROW is composed of a 5x4 grid that contain all the button (numbers and operations)
+
+Note: You will see ',' (coma) instead of '.' (dot) because the function <double.Parse(string str)> rise an Exception for string <str="0.5"> for exemple
